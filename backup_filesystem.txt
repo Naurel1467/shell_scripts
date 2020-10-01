@@ -1,0 +1,14 @@
+ #tar cvf /destination_path.tar path_file1 path_file2 
+tar cvf /home/ubuntu/scripts.tar /home/ubuntu/scripts/
+'''ubuntu@controller:~$ ls -ltr scripts.tar
+-rw-rw-r-- 1 ubuntu ubuntu 61440 Sep 26 11:56 scripts.tar'''
+
+#to compress
+gzip /home/ubuntu/scripts.tar
+'''ubuntu@controller:~$ gzip scripts.tar
+ubuntu@controller:~$ ls
+abc.old.90_old     abcdsdfddsf.old.90_old  get-docker.sh  ravit
+abcd.old.90_old    dead.letter             mbox           scripts
+abcdsd.old.90_old  fileout.txt             playbooks      scripts.tar.gz ''''
+
+

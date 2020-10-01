@@ -1,0 +1,18 @@
+'''crontab -e ---> to schedule a crontab
+* minute
+* houre 
+* day of the month
+* moth of year 
+* every day of the week
+'''
+
+
+* * * * *  /home/ubuntu/scripts/multiple-ips-pingtest.sh > output.txt
+#output.txt is the outpu from where we can see the output of cron-job
+#by default the output get stored in the home directory
+----------------------------------------------------------
+----------------------------------------------------------
+to mail the output from crontab :
+
+* * * * * /path of script file/  | mail -s "test mail" ravitejamerugu@gmail.com
+-------------------------------------------------------------------
